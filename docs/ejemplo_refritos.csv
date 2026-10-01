@@ -1,0 +1,16 @@
+nombre,apellido,numero_contacto,localidad,edad,tipo_afiliacion_id,correo,sueldo_bruto,categoria_monotributo,comentario
+Juan,Pérez,+541173931525,Buenos Aires,35,2,juan.perez@email.com,50000,,Interesado en cobertura médica completa
+María,García,223-456-7890,La Plata,28,1,maria.garcia@email.com,,,Llamar después de las 18
+Carlos,López,0223987654,Mar del Plata,42,3,carlos.lopez@email.com,,B,Es monotributista - Categoría B
+Ana,Martínez,1147382910,CABA,55,2,ana.martinez@email.com,75000,,Prefiere contacto por WhatsApp
+Roberto,Sánchez,011 2847-5932,San Isidro,39,1,roberto.sanchez@email.com,,,Empleado independiente
+Claudia,Fernández,+541159384756,Flores,31,2,claudia.fernandez@email.com,60000,,Necesita cotización para familia
+Diego,González,22-3456789,La Plata,48,3,diego.gonzalez@email.com,,C,Monotributista - Categoría C
+Sofía,López,549-3874-5921,Mendoza,26,1,sofia.lopez@email.com,,,Recién egresada - Sin sueldo fijo
+Fernando,Rodríguez,(011) 4837-2910,Caballito,52,2,fernando.rodriguez@email.com,80000,,Gerente de empresa
+Laura,Díaz,1165432187,San Martín,33,1,laura.diaz@email.com,,,Freelancer - Ingresos variables
+Pablo,Martínez,22-3456789,La Plata,45,3,pablo.martinez@email.com,,A,Monotributista - Categoría A
+Valentina,Córdoba,+541138492756,Belgrano,29,2,valentina.cordoba@email.com,55000,,Interesada en cobertura odontológica
+Mateo,Guzmán,011-5823-4756,Morón,38,1,mateo.guzman@email.com,,,Vendedor independiente
+Camila,Torres,223847596,Mar del Plata,34,2,camila.torres@email.com,65000,,Profesional de salud
+Andrés,Romero,+5491164837290,San Telmo,51,3,andres.romero@email.com,,D,Monotributista - Categoría D

@@ -1,0 +1,106 @@
+{
+  "name": "Cober360 - Sistema de Gestión",
+  "short_name": "Cober360",
+  "description": "Sistema de gestión de prospectos y ventas para Cober360",
+  "start_url": "/afiliaciones/",
+  "display": "standalone",
+  "background_color": "#2D3047",
+  "theme_color": "#8B7EC8",
+  "orientation": "portrait-primary",
+  "scope": "/afiliaciones/",
+  "lang": "es",
+  "icons": [
+    {
+  "src": "/afiliaciones/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+  "src": "/afiliaciones/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+  "src": "/afiliaciones/screenshots/desktop-screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+  "src": "/afiliaciones/screenshots/mobile-screenshot.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Ir al dashboard principal",
+  "url": "/afiliaciones/admin-dashboard",
+  "icons": [{ "src": "/afiliaciones/icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Nuevo Prospecto",
+      "short_name": "Prospecto",
+      "description": "Crear nuevo prospecto",
+  "url": "/afiliaciones/prospectos/nuevo",
+  "icons": [{ "src": "/afiliaciones/icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Cotizaciones",
+      "short_name": "Cotizaciones",
+      "description": "Ver cotizaciones",
+  "url": "/afiliaciones/cotizaciones",
+  "icons": [{ "src": "/afiliaciones/icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+}

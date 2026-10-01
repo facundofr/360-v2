@@ -1,0 +1,2338 @@
+[
+  {
+    "mensaje_id": 752,
+    "conversacion_id": 361,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Elias Roldan, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 816,
+    "conversacion_id": 403,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Micaela Ayelen Guerrero, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 827,
+    "conversacion_id": 414,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Dana Godoy, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 1422,
+    "conversacion_id": 813,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Valentin Pinoli, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 829,
+    "conversacion_id": 414,
+    "autor": "cliente",
+    "texto_anonimizado": "No gracias",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Dana Godoy, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 830,
+    "conversacion_id": 414,
+    "autor": "cliente",
+    "texto_anonimizado": "No me interesa",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Dana Godoy, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+      "[cliente] No gracias"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 845,
+    "conversacion_id": 414,
+    "autor": "cliente",
+    "texto_anonimizado": "No gracias",
+    "contexto_anterior_anonimizado": [
+      "[cliente] No gracias",
+      "[cliente] No me interesa",
+      "[vendedor] Entiendo. Te comento brevemente que estamos teniendo un beneficio especial para nuevos afiliados, puede que te interese más adelante. ¿Querés que te cuente en dos minutos y después decidís si vale la pena?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2914,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "No, no me sirve entonces",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] te puedo ofrecer cualquiera de los planes para que te puedas realizar los estudios y analisis complementarios , especificamente con ella no",
+      "[vendedor] pero si te hace las ordenes con tus datos y datos de la cobertura no hay problema",
+      "[vendedor] podrias hacerlos en dim"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "cartilla",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": "medio",
+      "estado_emocional_prospecto": "preocupado",
+      "objecion_principal": "cartilla",
+      "proxima_accion_sugerida": "resolver_objecion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 844,
+    "conversacion_id": 414,
+    "autor": "vendedor",
+    "texto_anonimizado": "Entiendo. Te comento brevemente que estamos teniendo un beneficio especial para nuevos afiliados, puede que te interese más adelante. ¿Querés que te cuente en dos minutos y después decidís si vale la pena?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Dana Godoy, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+      "[cliente] No gracias",
+      "[cliente] No me interesa"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "explicacion",
+      "intencion_principal": "convencer",
+      "tema_principal": "promociones",
+      "etapa_embudo": "negociacion",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "resolver_objecion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2912,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "pero si te hace las ordenes con tus datos y datos de la cobertura no hay problema",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] tenes idea si atiende en algun sanatorio o centro de salud?",
+      "[cliente] Tiene su consultorio en liniers",
+      "[vendedor] te puedo ofrecer cualquiera de los planes para que te puedas realizar los estudios y analisis complementarios , especificamente con ella no"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "explicacion",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "cobertura",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22811,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Porque podes hacer derivación de aportes",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Aguardamos ahí te envio",
+      "[vendedor] Mariana perdón la molestia... Que no te pregunte.. tenes Recibo de sueldo?",
+      "[vendedor] Sabes cual es tu bruto?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "explicacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 1778,
+    "conversacion_id": 1079,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, quiero recibir mi cotización",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "precio",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2908,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "Por aca, quiero cotización de planes donde atienda mi ginecóloga dra. Maria Carolina vignera",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola constanza como estas?",
+      "[vendedor] bien por suerte .  comentame buscas algun sanatorio en particular?",
+      "[vendedor] preferis que te llame? o por aca?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "cartilla",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3729,
+    "conversacion_id": 1907,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3754,
+    "conversacion_id": 1916,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2852,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2904,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "bien por suerte .  comentame buscas algun sanatorio en particular?",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] hola natalia soy constanza tu asesora",
+      "[cliente] Hola constanza como estas?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "descubrir_necesidad",
+      "tema_principal": "cartilla",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2905,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "preferis que te llame? o por aca?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] hola natalia soy constanza tu asesora",
+      "[cliente] Hola constanza como estas?",
+      "[vendedor] bien por suerte .  comentame buscas algun sanatorio en particular?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "coordinar_llamada",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2909,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "tenes idea si atiende en algun sanatorio o centro de salud?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] bien por suerte .  comentame buscas algun sanatorio en particular?",
+      "[vendedor] preferis que te llame? o por aca?",
+      "[cliente] Por aca, quiero cotización de planes donde atienda mi ginecóloga dra. Maria Carolina vignera"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "cartilla",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2903,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola constanza como estas?",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] hola natalia soy constanza tu asesora"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 18164,
+    "conversacion_id": 2338,
+    "autor": "vendedor",
+    "texto_anonimizado": "Hola Hernan buenas tardes",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20700,
+    "conversacion_id": 6080,
+    "autor": "vendedor",
+    "texto_anonimizado": "Hola buen dia",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22736,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Hola Mariana buenas tardes",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2910,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "Tiene su consultorio en liniers",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] preferis que te llame? o por aca?",
+      "[cliente] Por aca, quiero cotización de planes donde atienda mi ginecóloga dra. Maria Carolina vignera",
+      "[vendedor] tenes idea si atiende en algun sanatorio o centro de salud?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "localidad",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3455,
+    "conversacion_id": 1801,
+    "autor": "cliente",
+    "texto_anonimizado": "Nono",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Julio araujo, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.8,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3456,
+    "conversacion_id": 1801,
+    "autor": "cliente",
+    "texto_anonimizado": "Me confundi",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Julio araujo, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+      "[cliente] Nono"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": "confundido",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3457,
+    "conversacion_id": 1801,
+    "autor": "cliente",
+    "texto_anonimizado": "No me interesa",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Julio araujo, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+      "[cliente] Nono",
+      "[cliente] Me confundi"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2911,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "te puedo ofrecer cualquiera de los planes para que te puedas realizar los estudios y analisis complementarios , especificamente con ella no",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Por aca, quiero cotización de planes donde atienda mi ginecóloga dra. Maria Carolina vignera",
+      "[vendedor] tenes idea si atiende en algun sanatorio o centro de salud?",
+      "[cliente] Tiene su consultorio en liniers"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "entrega_de_informacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2913,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "podrias hacerlos en dim",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Tiene su consultorio en liniers",
+      "[vendedor] te puedo ofrecer cualquiera de los planes para que te puedas realizar los estudios y analisis complementarios , especificamente con ella no",
+      "[vendedor] pero si te hace las ordenes con tus datos y datos de la cobertura no hay problema"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "entrega_de_informacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "cartilla",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 6703,
+    "conversacion_id": 3128,
+    "autor": "vendedor",
+    "texto_anonimizado": "Genial. te informamos que la Asesora Dilimar se estara comunicando contigo a la brevedad posible para brindarte la atencion que necesitas. ¡Que tengas un excelente Dia",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "entrega_de_informacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22792,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Te voy a estar enviado por WhatsApp..saliendo de la Plataforma,  info de Planes con que contamos",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Buen día! \nSoy de Caba, tengo 40 años , mi hija 18. Trabajo en relacion de dependencia para el gcba",
+      "[vendedor] Perfecto",
+      "[vendedor] Actualmente contas con cobertura?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "entrega_de_informacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "cotizacion",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2915,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "Mil gracias por tu tiempo",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] pero si te hace las ordenes con tus datos y datos de la cobertura no hay problema",
+      "[vendedor] podrias hacerlos en dim",
+      "[cliente] No, no me sirve entonces"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "agradecimiento",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 26626,
+    "conversacion_id": 8426,
+    "autor": "cliente",
+    "texto_anonimizado": "Gracias",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "agradecimiento",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "medio",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 30088,
+    "conversacion_id": 9603,
+    "autor": "cliente",
+    "texto_anonimizado": "Dale gracias",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "agradecimiento",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "medio",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2917,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "que tengas buen dia",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] podrias hacerlos en dim",
+      "[cliente] No, no me sirve entonces",
+      "[cliente] Mil gracias por tu tiempo"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "despedida",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2919,
+    "conversacion_id": 1561,
+    "autor": "cliente",
+    "texto_anonimizado": "igual para vos",
+    "contexto_anterior_anonimizado": [
+      "[cliente] No, no me sirve entonces",
+      "[cliente] Mil gracias por tu tiempo",
+      "[vendedor] que tengas buen dia"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "despedida",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 33212,
+    "conversacion_id": 10674,
+    "autor": "cliente",
+    "texto_anonimizado": "Chau",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Natacha Rios, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+      "[cliente] No quiero nda"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "despedida",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 18168,
+    "conversacion_id": 2338,
+    "autor": "vendedor",
+    "texto_anonimizado": "Te voy a estar llamando por teléfono",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] Hola Hernan buenas tardes",
+      "[vendedor] Mi nombre en Maria Paula"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "otro",
+      "intencion_principal": "coordinar_llamada",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22818,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Por WhatsApp",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Sabes cual es tu bruto?",
+      "[vendedor] Porque podes hacer derivación de aportes",
+      "[vendedor] Mariana Corrobora que te envie"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "otro",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.8,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22799,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Aguardamos ahí te envio",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Ninguna",
+      "[cliente] [NUMERO]",
+      "[vendedor] Perfecto Mariana"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "seguimiento",
+      "intencion_principal": "recuperar_conversacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22817,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Mariana Corrobora que te envie",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Mariana perdón la molestia... Que no te pregunte.. tenes Recibo de sueldo?",
+      "[vendedor] Sabes cual es tu bruto?",
+      "[vendedor] Porque podes hacer derivación de aportes"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "seguimiento",
+      "intencion_principal": "recuperar_conversacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 4619,
+    "conversacion_id": 2283,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Zaida Quintans, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 18729,
+    "conversacion_id": 5643,
+    "autor": "vendedor",
+    "texto_anonimizado": "Buen dia! Mi nombre es Santiago, soy Asesor de la Prepaga Cober. Preferís que me comunique desde este medio para enviarte mas información o telefónicamente,",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20703,
+    "conversacion_id": 6080,
+    "autor": "vendedor",
+    "texto_anonimizado": "Recibi tu mensaje estas interesado en recibir información?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Hola buen dia",
+      "[vendedor] Benjamin",
+      "[vendedor] Mi nombre es maria Paula"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 2902,
+    "conversacion_id": 1561,
+    "autor": "vendedor",
+    "texto_anonimizado": "hola natalia soy constanza tu asesora",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3024,
+    "conversacion_id": 1628,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Walter Limachi, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 3451,
+    "conversacion_id": 1801,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Julio araujo, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22743,
+    "conversacion_id": 7095,
+    "autor": "cliente",
+    "texto_anonimizado": "Buenas",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Querías recibir info",
+      "[vendedor] De nuestros Planes?",
+      "[cliente] Si"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22783,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Hola Mariana Buen día",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] De nuestros Planes?",
+      "[cliente] Si",
+      "[cliente] Buenas"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22798,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Perfecto Mariana",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Enfermedades,  persistente tienen?",
+      "[cliente] Ninguna",
+      "[cliente] [NUMERO]"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20377,
+    "conversacion_id": 6253,
+    "autor": "cliente",
+    "texto_anonimizado": "Por eso no confío en nadie",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[cliente] Es que quiero descargar Popy playtime para jugar pero no me parece que se está descargando arriba",
+      "[cliente] Me lo puedes mandar"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "convencer",
+      "tema_principal": "competencia",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "bajo",
+      "estado_emocional_prospecto": "desconfiado",
+      "objecion_principal": "confianza",
+      "proxima_accion_sugerida": "resolver_objecion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 4582,
+    "conversacion_id": 2264,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 4735,
+    "conversacion_id": 2338,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 6244,
+    "conversacion_id": 2932,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22788,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Perfecto",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Que edad tenes?",
+      "[vendedor] Contaste con Recibo de sueldo?",
+      "[cliente] Buen día! \nSoy de Caba, tengo 40 años , mi hija 18. Trabajo en relacion de dependencia para el gcba"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22796,
+    "conversacion_id": 7095,
+    "autor": "cliente",
+    "texto_anonimizado": "Ninguna",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Te voy a estar enviado por WhatsApp..saliendo de la Plataforma,  info de Planes con que contamos",
+      "[vendedor] En el caso de querer cotización de los mismos, me debe brindar tu dni",
+      "[vendedor] Enfermedades,  persistente tienen?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "preexistencias",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 30728,
+    "conversacion_id": 9769,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 ¡Hola! Soy tu asesor de COBER. ¿Cómo estás? 😊 ¿Tenés alguna consulta sobre tu cotización o póliza 📄❓",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola María del Rosario Giorgieri, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "venta_cerrada_sin_pago_confirmado",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22784,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Contame de donde sos?",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Si",
+      "[cliente] Buenas",
+      "[vendedor] Hola Mariana Buen día"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "calificar_prospecto",
+      "tema_principal": "localidad",
+      "etapa_embudo": "calificacion",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22785,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Que edad tenes?",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Buenas",
+      "[vendedor] Hola Mariana Buen día",
+      "[vendedor] Contame de donde sos?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "calificar_prospecto",
+      "tema_principal": "edad",
+      "etapa_embudo": "calificacion",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 26642,
+    "conversacion_id": 8426,
+    "autor": "cliente",
+    "texto_anonimizado": "Buen dia\nNunca se comunicaron conmigo",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[cliente] Gracias"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "saludo",
+      "intencion_principal": "recuperar_conversacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "bajo",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "insistir"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 7654,
+    "conversacion_id": 2932,
+    "autor": "vendedor",
+    "texto_anonimizado": "Hola! Buenos días, la asesora Laureana se estará comunicando con usted",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 18558,
+    "conversacion_id": 5754,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Rocio Miño, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22881,
+    "conversacion_id": 7139,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Tobias Kappes, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 31170,
+    "conversacion_id": 7757,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola buen día mi marido ya pagó la cuota",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola buenas tardes yo quería saber cuando puedo empezar a ocupar la cobertura medica porque tengo que hacerme estudios rutinario que se hacen toda las personas",
+      "[vendedor] hola que tal , a traves de la app cober touch tiene los prestadores para llamar y pedir turnos"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "decision",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "venta_cerrada_sin_pago_confirmado",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 31196,
+    "conversacion_id": 7757,
+    "autor": "vendedor",
+    "texto_anonimizado": "perfecto!",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola buenas tardes yo quería saber cuando puedo empezar a ocupar la cobertura medica porque tengo que hacerme estudios rutinario que se hacen toda las personas",
+      "[vendedor] hola que tal , a traves de la app cober touch tiene los prestadores para llamar y pedir turnos",
+      "[cliente] Hola buen día mi marido ya pagó la cuota"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "resolver_duda",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "venta_cerrada_sin_pago_confirmado",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 33211,
+    "conversacion_id": 10674,
+    "autor": "cliente",
+    "texto_anonimizado": "No quiero nda",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Natacha Rios, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje."
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "molesto",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22787,
+    "conversacion_id": 7095,
+    "autor": "cliente",
+    "texto_anonimizado": "Buen día! \nSoy de Caba, tengo 40 años , mi hija 18. Trabajo en relacion de dependencia para el gcba",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Contame de donde sos?",
+      "[vendedor] Que edad tenes?",
+      "[vendedor] Contaste con Recibo de sueldo?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "edad",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22789,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Actualmente contas con cobertura?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Contaste con Recibo de sueldo?",
+      "[cliente] Buen día! \nSoy de Caba, tengo 40 años , mi hija 18. Trabajo en relacion de dependencia para el gcba",
+      "[vendedor] Perfecto"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "cobertura",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22794,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "En el caso de querer cotización de los mismos, me debe brindar tu dni",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Perfecto",
+      "[vendedor] Actualmente contas con cobertura?",
+      "[vendedor] Te voy a estar enviado por WhatsApp..saliendo de la Plataforma,  info de Planes con que contamos"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 6675,
+    "conversacion_id": 3128,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 9623,
+    "conversacion_id": 4377,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 10321,
+    "conversacion_id": 4666,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22786,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Contaste con Recibo de sueldo?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Hola Mariana Buen día",
+      "[vendedor] Contame de donde sos?",
+      "[vendedor] Que edad tenes?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "calificacion",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 33213,
+    "conversacion_id": 10674,
+    "autor": "cliente",
+    "texto_anonimizado": "No me interesa",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] 👋 Hola Natacha Rios, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+      "[cliente] No quiero nda",
+      "[cliente] Chau"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "objecion",
+      "intencion_principal": "otro",
+      "tema_principal": "otro",
+      "etapa_embudo": "decision",
+      "nivel_interes": "perdido",
+      "estado_emocional_prospecto": "desconfiado",
+      "objecion_principal": "otro",
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 10751,
+    "conversacion_id": 4858,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 11414,
+    "conversacion_id": 5128,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 14574,
+    "conversacion_id": 5298,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 18114,
+    "conversacion_id": 5643,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 19503,
+    "conversacion_id": 6080,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 19508,
+    "conversacion_id": 6082,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "abandonada_sin_respuesta",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20036,
+    "conversacion_id": 6253,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20039,
+    "conversacion_id": 6253,
+    "autor": "cliente",
+    "texto_anonimizado": "Me lo puedes mandar",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[cliente] Es que quiero descargar Popy playtime para jugar pero no me parece que se está descargando arriba"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "medio",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 21241,
+    "conversacion_id": 6601,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 21599,
+    "conversacion_id": 6724,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22729,
+    "conversacion_id": 7095,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22742,
+    "conversacion_id": 7095,
+    "autor": "cliente",
+    "texto_anonimizado": "Si",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Mi Nombre es Maria Paula",
+      "[vendedor] Querías recibir info",
+      "[vendedor] De nuestros Planes?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "medio",
+      "estado_emocional_prospecto": "neutral",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22797,
+    "conversacion_id": 7095,
+    "autor": "cliente",
+    "texto_anonimizado": "[NUMERO]",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] En el caso de querer cotización de los mismos, me debe brindar tu dni",
+      "[vendedor] Enfermedades,  persistente tienen?",
+      "[cliente] Ninguna"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "respuesta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 24264,
+    "conversacion_id": 7620,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "venta_cerrada_sin_pago_confirmado",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 24977,
+    "conversacion_id": 7873,
+    "autor": "cliente",
+    "texto_anonimizado": "Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": "alto",
+      "estado_emocional_prospecto": "interesado",
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 18167,
+    "conversacion_id": 2338,
+    "autor": "vendedor",
+    "texto_anonimizado": "Mi nombre en Maria Paula",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] Hola Hernan buenas tardes"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20701,
+    "conversacion_id": 6080,
+    "autor": "vendedor",
+    "texto_anonimizado": "Benjamin",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] Hola buen dia"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 20702,
+    "conversacion_id": 6080,
+    "autor": "vendedor",
+    "texto_anonimizado": "Mi nombre es maria Paula",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] Hola buen dia",
+      "[vendedor] Benjamin"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "no_venta_confirmada",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22737,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Mi Nombre es Maria Paula",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] Hola Mariana buenas tardes"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22738,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Querías recibir info",
+    "contexto_anterior_anonimizado": [
+      "[cliente] Hola, me interesa recibir más información sobre los planes y cotizaciones de Cober Medicina Privada.",
+      "[vendedor] Hola Mariana buenas tardes",
+      "[vendedor] Mi Nombre es Maria Paula"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22739,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "De nuestros Planes?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Hola Mariana buenas tardes",
+      "[vendedor] Mi Nombre es Maria Paula",
+      "[vendedor] Querías recibir info"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pregunta",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "plan",
+      "etapa_embudo": "descubrimiento",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "enviar_cotizacion"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22795,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Enfermedades,  persistente tienen?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Actualmente contas con cobertura?",
+      "[vendedor] Te voy a estar enviado por WhatsApp..saliendo de la Plataforma,  info de Planes con que contamos",
+      "[vendedor] En el caso de querer cotización de los mismos, me debe brindar tu dni"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "preexistencias",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22809,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Mariana perdón la molestia... Que no te pregunte.. tenes Recibo de sueldo?",
+    "contexto_anterior_anonimizado": [
+      "[cliente] [NUMERO]",
+      "[vendedor] Perfecto Mariana",
+      "[vendedor] Aguardamos ahí te envio"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22810,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Sabes cual es tu bruto?",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Perfecto Mariana",
+      "[vendedor] Aguardamos ahí te envio",
+      "[vendedor] Mariana perdón la molestia... Que no te pregunte.. tenes Recibo de sueldo?"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "pedido_de_informacion",
+      "intencion_principal": "solicitar_informacion",
+      "tema_principal": "documentacion",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "pedir_dato_faltante"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 22819,
+    "conversacion_id": 7095,
+    "autor": "vendedor",
+    "texto_anonimizado": "Info",
+    "contexto_anterior_anonimizado": [
+      "[vendedor] Porque podes hacer derivación de aportes",
+      "[vendedor] Mariana Corrobora que te envie",
+      "[vendedor] Por WhatsApp"
+    ],
+    "clasificacion": {
+      "tipo_mensaje": "entrega_de_informacion",
+      "intencion_principal": "brindar_informacion",
+      "tema_principal": "otro",
+      "etapa_embudo": "recopilacion_de_datos",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "ninguna_accion_requerida"
+    },
+    "confianza": 0.9,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "principal",
+    "advertencias_revalidacion": []
+  },
+  {
+    "mensaje_id": 25360,
+    "conversacion_id": 8003,
+    "autor": "vendedor",
+    "texto_anonimizado": "👋 Hola Juan Barroeta, Te contactamos desde Cober | Medicina Privada por la consulta que realizaste en nuestra web 🌐. Si querés que un representante oficial se comunique con vos 📞 para brindarte más información ℹ️, respondé \"Sí\" ✅ a este mensaje.",
+    "contexto_anterior_anonimizado": [],
+    "clasificacion": {
+      "tipo_mensaje": "presentacion",
+      "intencion_principal": "generar_confianza",
+      "tema_principal": "otro",
+      "etapa_embudo": "contacto_inicial",
+      "nivel_interes": null,
+      "estado_emocional_prospecto": null,
+      "objecion_principal": null,
+      "proxima_accion_sugerida": "coordinar_turno"
+    },
+    "confianza": 1,
+    "resultado_final_conversacion": "activo",
+    "grupo_dataset": "secundario",
+    "advertencias_revalidacion": []
+  }
+]

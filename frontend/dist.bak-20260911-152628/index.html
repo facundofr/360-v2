@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- ✅ CAMBIAR ICONO AL LOGO DE COBER -->
+    <link rel="icon" type="image/svg+xml" href="/afiliaciones/assets/logo-CPgyBQ2y.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="description" content="Sistema de gestión de prospectos y ventas para Cober360" />
+    <meta name="theme-color" content="#8B7EC8" />
+    <meta name="background-color" content="#2D3047" />
+    
+    <!-- Apple PWA Meta Tags (REQUERIDO PARA iOS) -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Cober360" />
+    <!-- ✅ ICONS PARA iOS - TAMAÑOS ESPECÍFICOS REQUERIDOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/afiliaciones/icons/icon-180x180.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/afiliaciones/icons/icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/afiliaciones/icons/icon-144x144.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/afiliaciones/icons/icon-192x192.png" />
+    
+    <!-- Windows PWA Meta Tags -->
+  <meta name="msapplication-TileImage" content="/afiliaciones/icons/icon-144x144.png" />
+    <meta name="msapplication-TileColor" content="#8B7EC8" />
+    
+    <!-- Manifest -->
+  <link rel="manifest" href="/afiliaciones/manifest.json" />
+    
+    <!-- Preconnect para performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- ✅ ACTUALIZAR TÍTULO -->
+    <title>COBER 360 - Portal de Gestión</title>
+    <script type="module" crossorigin src="/afiliaciones/assets/index-CeQvyZLW.js"></script>
+    <link rel="modulepreload" crossorigin href="/afiliaciones/assets/react-vendor-Csw2ODfV.js">
+    <link rel="modulepreload" crossorigin href="/afiliaciones/assets/bootstrap-vendor-MlfD77tM.js">
+    <link rel="stylesheet" crossorigin href="/afiliaciones/assets/index-BhjdmvaX.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- Registrar Service Worker + PWA Install Prompt -->
+    <script>
+      // 🍎 DETECCIÓN DE PLATAFORMA
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+      const isAndroid = /Android/.test(navigator.userAgent);
+      
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/afiliaciones/sw.js')
+            .then((registration) => {
+              console.log('✅ SW registrado: ', registration);
+              
+               // Verificar actualizaciones
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    // Nueva versión disponible - actualización silenciosa
+                    console.log('🔄 Nueva versión disponible (actualización automática en próxima carga)');
+                    // Auto-actualizar silenciosamente sin molestar al usuario
+                    newWorker.postMessage({ type: 'SKIP_WAITING' });
+                  }
+                });
+              });
+            })
+            .catch((error) => {
+              console.log('❌ SW registro falló: ', error);
+            });
+        });
+      }
+
+      // 📱 MANEJO DE PWA INSTALL PROMPT - Android/Chrome
+      let deferredPrompt;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        console.log('🔧 PWA: Prompt de instalación disponible (Android/Chrome)');
+        e.preventDefault();
+        deferredPrompt = e;
+        showInstallButton();
+      });
+
+      // 🍎 INSTRUCCIONES PARA iOS
+      function showIOSInstallInstructions() {
+        const instructionsDiv = document.createElement('div');
+        instructionsDiv.id = 'ios-install-instructions';
+        instructionsDiv.style.cssText = `
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background: linear-gradient(135deg, #8B7EC8 0%, #6B5FA0 100%);
+          color: white;
+          border: none;
+          padding: 16px;
+          border-radius: 12px;
+          font-weight: 500;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+          z-index: 1000;
+          max-width: 280px;
+          font-size: 13px;
+          line-height: 1.5;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        `;
+        
+        instructionsDiv.innerHTML = `
+          <div style="font-weight: bold; margin-bottom: 8px;">📲 Instalar App en iOS</div>
+          <div style="font-size: 12px;">
+            1. Toca el botón <strong>Compartir</strong> (↗️)<br>
+            2. Selecciona <strong>"Añadir a la pantalla de inicio"</strong><br>
+            3. ¡Listo! La app estará en tu home
+          </div>
+          <button id="close-ios-instructions" style="
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            margin-top: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            width: 100%;
+          ">Cerrar</button>
+        `;
+        
+        document.body.appendChild(instructionsDiv);
+        
+        document.getElementById('close-ios-instructions').addEventListener('click', () => {
+          instructionsDiv.remove();
+        });
+        
+        // Auto-remover después de 15 segundos
+        setTimeout(() => {
+          if (instructionsDiv.parentNode) {
+            instructionsDiv.remove();
+          }
+        }, 15000);
+      }
+
+      // 📥 BOTÓN PARA Android
+      function showInstallButton() {
+        const installButton = document.createElement('button');
+        installButton.innerText = '📲 Instalar App';
+        installButton.style.cssText = `
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background: linear-gradient(135deg, #8B7EC8 0%, #6B5FA0 100%);
+          color: white;
+          border: none;
+          padding: 12px 20px;
+          border-radius: 25px;
+          font-weight: bold;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+          cursor: pointer;
+          z-index: 1000;
+          transition: all 0.3s ease;
+        `;
+        
+        installButton.addEventListener('mouseover', () => {
+          installButton.style.transform = 'translateY(-2px)';
+          installButton.style.boxShadow = '0 6px 16px rgba(0,0,0,0.2)';
+        });
+        
+        installButton.addEventListener('mouseout', () => {
+          installButton.style.transform = 'translateY(0)';
+          installButton.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        });
+        
+        installButton.addEventListener('click', async () => {
+          if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            console.log(`🔧 PWA: Usuario ${outcome} la instalación`);
+            deferredPrompt = null;
+            installButton.remove();
+          }
+        });
+        
+        document.body.appendChild(installButton);
+        
+        // Auto-remover después de 10 segundos
+        setTimeout(() => {
+          if (installButton.parentNode) {
+            installButton.remove();
+          }
+        }, 10000);
+      }
+
+      // 🎯 INICIALIZAR SEGÚN LA PLATAFORMA
+      window.addEventListener('load', () => {
+        if (isIOS) {
+          console.log('🍎 iOS detectado - Mostrando instrucciones de instalación');
+          showIOSInstallInstructions();
+        }
+        // Android mostrará el botón cuando se dispare beforeinstallprompt
+      });
+
+      // Detectar cuando la app se instala
+      window.addEventListener('appinstalled', (evt) => {
+        console.log('✅ PWA: App instalada exitosamente');
+      });
+    </script>
+  </body>
+</html>

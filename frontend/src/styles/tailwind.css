@@ -1,0 +1,273 @@
+/*
+ * Tailwind v4 + shadcn/ui. Tokens de DESIGN.md.
+ */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* App.jsx está en el .gitignore de la raíz y Tailwind no escanea archivos ignorados */
+@source "../";
+@source "../App.jsx";
+
+/* Tokens de DESIGN.md con los nombres de variables de shadcn */
+:root {
+  --radius: 0.875rem;
+
+  --background: #fafbfc;
+  --foreground: #2a3039;
+  --card: #ffffff;
+  --card-foreground: #2a3039;
+  --popover: #ffffff;
+  --popover-foreground: #2a3039;
+  --primary: #7b3092;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f6f8;
+  --secondary-foreground: #2d3047;
+  --muted: #f4f6f8;
+  --muted-foreground: #5a6a7a;
+  --accent: #f2eaf4;
+  --accent-foreground: #7b3092;
+  --destructive: #c53030;
+  --destructive-foreground: #ffffff;
+  --border: #e8ecf0;
+  --input: #d1d7dd;
+  --ring: #7b3092;
+
+  /* Colores propios de Cober360 */
+  --corporate: #2d3047;
+  --corporate-foreground: #ffffff;
+  --teal: #048a81;
+  --teal-foreground: #ffffff;
+  --success: #2f855a;
+  --success-foreground: #ffffff;
+  --success-soft: #f0fff4;
+  --warning: #c05621;
+  --warning-foreground: #ffffff;
+  --warning-soft: #fffaf0;
+  --info: #7a7190;
+  --info-foreground: #ffffff;
+
+  --chart-1: #7b3092;
+  --chart-2: #048a81;
+  --chart-3: #e07a5f;
+  --chart-4: #2d3047;
+  --chart-5: #9b95b3;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #5a6a7a;
+  --sidebar-primary: #7b3092;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f2eaf4;
+  --sidebar-accent-foreground: #7b3092;
+  --sidebar-border: #e8ecf0;
+  --sidebar-ring: #7b3092;
+}
+
+/* Puntos de quiebre iguales a los de Bootstrap: las grillas migradas se acomodan igual que antes */
+@theme {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+}
+
+@theme inline {
+  --font-sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-corporate: var(--corporate);
+  --color-corporate-foreground: var(--corporate-foreground);
+  --color-teal: var(--teal);
+  --color-teal-foreground: var(--teal-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-soft: var(--warning-soft);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+
+@layer base {
+  html,
+  body {
+    /* clip (no hidden): recorta el desborde horizontal sin romper position: sticky */
+    overflow-x: clip;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    accent-color: var(--primary);
+    caret-color: var(--primary);
+  }
+
+  ::selection {
+    background: #e5d6e9;
+    color: #1a1f26;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::placeholder {
+    color: var(--muted-foreground);
+    opacity: 1;
+  }
+}
+
+/*
+ * HTML heredado de SweetAlert (strings con clases de Bootstrap) que ahora
+ * se muestra dentro de los diálogos de @/lib/alerts. Estilos propios para
+ * que se siga viendo bien cuando se quite Bootstrap.
+ */
+.alerts-html {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--foreground);
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+.alerts-html p,
+.alerts-html .mb-2 { margin: 0 0 0.5rem; }
+.alerts-html .mb-3 { margin-bottom: 0.875rem; }
+.alerts-html .mb-0 { margin-bottom: 0; }
+.alerts-html .mb-1 { margin-bottom: 0.25rem; }
+.alerts-html .mt-1 { margin-top: 0.25rem; }
+.alerts-html .mt-2 { margin-top: 0.5rem; }
+.alerts-html .mt-3 { margin-top: 0.875rem; }
+.alerts-html .me-1 { margin-inline-end: 0.25rem; }
+.alerts-html .me-2 { margin-inline-end: 0.5rem; }
+.alerts-html .gap-2 { gap: 0.5rem; }
+.alerts-html .d-block { display: block; }
+.alerts-html .d-grid { display: grid; gap: 0.5rem; }
+.alerts-html .text-start { text-align: left; }
+.alerts-html .text-center { text-align: center; }
+.alerts-html .small,
+.alerts-html small { font-size: 0.85rem; }
+.alerts-html strong,
+.alerts-html b { font-weight: 700; }
+.alerts-html hr { border: 0; border-top: 1px solid var(--border); margin: 0.875rem 0; }
+.alerts-html ul,
+.alerts-html ol { padding-left: 1.25rem; margin: 0 0 0.5rem; list-style: revert; }
+.alerts-html .list-unstyled { list-style: none; padding-left: 0; }
+.alerts-html .text-muted { color: var(--muted-foreground); }
+.alerts-html .text-success { color: var(--success); }
+.alerts-html .text-danger { color: var(--destructive); }
+.alerts-html .text-warning { color: var(--warning); }
+.alerts-html .text-info { color: var(--info); }
+.alerts-html .text-primary { color: var(--primary); }
+.alerts-html .h5 { font-size: 1.1rem; font-weight: 700; }
+.alerts-html .alert {
+  border-radius: var(--radius-md, 14px);
+  padding: 0.75rem 1rem;
+  margin: 0 0 0.75rem;
+  background: var(--muted);
+  border: 1px solid var(--border);
+}
+.alerts-html .alert-info { background: var(--accent); border-color: #e5d6e9; }
+.alerts-html .alert-success { background: var(--success-soft); border-color: #c6f6d5; }
+.alerts-html .alert-warning { background: var(--warning-soft); border-color: #feebc8; }
+.alerts-html .alert-danger { background: #fff5f5; border-color: #fed7d7; }
+.alerts-html .badge {
+  display: inline-block;
+  border-radius: 9999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--muted);
+  color: var(--foreground);
+}
+.alerts-html .bg-success { background: var(--success); color: var(--success-foreground); }
+.alerts-html .table { width: 100%; border-collapse: collapse; margin-bottom: 0.5rem; }
+.alerts-html .table th,
+.alerts-html .table td { padding: 0.4rem 0.5rem; border-bottom: 1px solid var(--border); text-align: left; }
+.alerts-html .form-label { display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.375rem; color: var(--corporate); }
+.alerts-html .form-check { display: flex; align-items: center; gap: 0.5rem; }
+.alerts-html .form-check-input { width: 1rem; height: 1rem; accent-color: var(--primary); }
+.alerts-html :is(.swal2-input, .swal2-textarea, .swal2-select, .form-control) {
+  display: block;
+  width: 100%;
+  min-height: 2.75rem;
+  margin: 0.25rem 0 0;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  color: var(--foreground);
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md, 14px);
+  outline: none;
+}
+.alerts-html .swal2-textarea { min-height: 6rem; }
+.alerts-html :is(.swal2-input, .swal2-textarea, .swal2-select, .form-control):focus-visible {
+  border-color: var(--ring);
+  box-shadow: 0 0 0 3px rgb(123 48 146 / 0.2);
+}
+.alerts-html .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md, 14px);
+  font-weight: 600;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background: var(--card);
+  text-decoration: none;
+}
+.alerts-html :is(.btn-primary, .btn-success) { background: var(--primary); color: var(--primary-foreground); }
+.alerts-html .btn-success { background: var(--success); border-color: var(--success); }
+.alerts-html .btn-sm { min-height: 2.25rem; font-size: 0.875rem; }
+.alerts-html .btn-lg { min-height: 3rem; font-size: 1.05rem; }

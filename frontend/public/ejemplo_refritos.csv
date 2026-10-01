@@ -1,0 +1,11 @@
+nombre,apellido,edad,numero_contacto,localidad,tipo_afiliacion_id,correo,sueldo_bruto,categoria_monotributo,comentario
+Juan,Pérez,35,541123456789,CABA,1,juan.perez@gmail.com,45000,,,Cliente de prueba 1
+María,García,28,541198765432,La Plata,2,maria.garcia@email.com,55000,,,Cliente de prueba 2
+Carlos,López,42,541167890123,Quilmes,3,,0,Categoría C,Cliente con monotributo
+Ana,Rodríguez,31,541145678901,San Justo,1,ana.rodriguez@hotmail.com,50000,,,Cliente de prueba 4
+Roberto,Martínez,55,541134567890,Avellaneda,2,roberto.martinez@gmail.com,65000,,,Cliente de prueba 5
+Laura,Sánchez,26,541187654321,Moreno,1,laura.sanchez@yahoo.com,40000,,,Cliente de prueba 6
+Fernando,Díaz,48,541156789012,Ituzaingó,3,,0,Categoría B,Cliente con monotributo
+Patricia,Fernández,33,541123456780,Lomas de Zamora,1,patricia.fernandez@gmail.com,52000,,,Cliente de prueba 8
+Miguel,Gómez,45,541189012345,Berazategui,2,miguel.gomez@hotmail.com,60000,,,Cliente de prueba 9
+Claudia,Torres,29,541167890124,Lanús,1,claudia.torres@gmail.com,48000,,,Cliente de prueba 10
